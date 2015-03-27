@@ -21,6 +21,7 @@ cat_img <- "------------------------------------------------ \n    \\\   \n     
 #' This friendly cat explains an R object to you.
 #'
 #' @param x object to be explained
+#' @param meow a faction of the words to replace with meow.
 #' @param ... extra arguments.
 #'
 #' @return A cat explaining the object.
@@ -28,8 +29,14 @@ cat_img <- "------------------------------------------------ \n    \\\   \n     
 #' @import explainr
 #'
 #' @export
-catsplain <- function(x, ...) {
+catsplain <- function(x, meow=0.001, ...) {
     out <- explain(x, ...)
+    if (meow > 0) {
+      words <- strsplit(out, " ")[[1]]
+      meows <- as.logical(rbinom(length(words), 1, meow))
+      words[meows] <- "meow"
+      out <- paste(words, collapse=" ")
+    }
 
     out <- explainr_output(
       paste(
