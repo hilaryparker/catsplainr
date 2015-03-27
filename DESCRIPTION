@@ -8,11 +8,6 @@ Authors@R: c(
     person("David", "Robinson", email = "admiral.david@gmail.com", role = c("aut")),
     person("Stephanie", "Hicks", email = "stephaniechicks@gmail.com", role = c("aut"))
     )
-Imports:
-    dplyr,
-    broom,
-    stringr,
-    yaml
 Maintainer: Hilary Parker <hilary@etsy.com>
 Description: Makes a cat explain R objects in plain English, based on a set of templates.
 License: MIT + file LICENSE
@@ -20,6 +15,5 @@ LazyData: TRUE
 URL: http://github.com/hilaryparker/catsplainr
 VignetteBuilder: knitr
 BugReports: http://github.com/hilaryparker/catsplainr/issues
-Suggests: knitr,
-    biobroom,
-    ggplot2
+Depends: explainr
+Suggests: knitr
