@@ -21,8 +21,8 @@ After installation, the package can be loaded into R.
 The main function in the **catsplainr** package is `catsplain()`.
 
 ```
-prop.test(x = 500, n = 1008) %>%
-    catsplain()
+ptest <- prop.test(x = 500, n = 1008)
+catsplain(ptest)
 ```
 
 # Bug reports
