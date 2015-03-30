@@ -10,7 +10,9 @@ For help with the **catsplainr** R-package, there is a vignette available in the
 
 The package can be installed with
 
-    devtools::install_github("hilaryparker/catsplainr")
+```r
+install_github(c("hilaryparker/explainr", "hilaryparker/catsplainr"))
+```
 
 After installation, the package can be loaded into R.
 
