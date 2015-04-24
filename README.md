@@ -4,7 +4,6 @@
 
 **catsplainr** makes a cat translate S3 objects into text using standard templates in a simple and convenient way.
 
-For help with the **catsplainr** R-package, there is a vignette available in the /vignettes folder.
 
 # Installation
 
