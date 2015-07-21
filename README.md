@@ -35,4 +35,3 @@ Report bugs as issues on the [GitHub repository](https://github.com/hilaryparker
 * [Hilary Parker](https://github.com/hilaryparker)
 * [David Robinson](https://github.com/dgrtwo)
 * [Stephanie Hicks](https://github.com/stephaniehicks)
-* [Roger Peng](https://github.com/rdpeng)
