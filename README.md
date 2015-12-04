@@ -11,7 +11,7 @@ For help with the **catsplainr** R-package, there is a vignette available in the
 The package can be installed with
 
 ```r
-install_github(c("hilaryparker/explainr", "hilaryparker/catsplainr"))
+devtools::install_github(c("hilaryparker/explainr", "hilaryparker/catsplainr"))
 ```
 
 After installation, the package can be loaded into R.
